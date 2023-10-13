@@ -1,5 +1,5 @@
 {
-    "name": "@formlinkjs/examples-vue3",
+    "name": "@formlinkjs/vue3-examples",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -9,11 +9,17 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "vue": "^3.3.4",
-        "formlink": "latest"
+        "@heroicons/vue": "^2.0.18",
+        "axios": "^1.5.1",
+        "formlink": "^0.0.10",
+        "vue": "^3.3.4"
     },
     "devDependencies": {
+        "@tailwindcss/forms": "^0.5.6",
         "@vitejs/plugin-vue": "^4.2.3",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.3.3",
         "typescript": "^5.0.2",
         "vite": "^4.4.5",
         "vue-tsc": "^1.8.5"
